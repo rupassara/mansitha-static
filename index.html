@@ -1,14 +1,270 @@
-<html>
-
+<!DOCTYPE html>
+<html lang="en">
 <head>
+  <link rel="icon" href="images/logo.svg" type="image/svg+xml">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Mansitha Herbal Products</title>
 
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet" />
 
-    <title>
-        Mansitha
-    </title>
+  <!-- Styles -->
+  <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
 
-    <h1>mansitha</h1>
+  <!-- Hero -->
+  <header class="hero">
+    <div class="hero-overlay">
+      <div class="container">
+        <h1>Mansitha Herbal Products</h1>
+        <p>Nature's touch in every product - crafted in Sri Lanka</p>
+        <a href="#contact" class="btn btn-light">Contact us</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Divider (leaf icon) -->
+  <section class="divider">
+    <span class="leaf">
+      <!-- Inline leaf SVG -->
+      <svg width="44" height="44" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+        <path d="M20.59 3.41c-5.86 1.3-9.9 3.83-12.3 6.23C5.89 12.03 4 15 4 18c0 1.5.5 3 2 3 3 0 5.97-1.89 8.36-4.29 2.4-2.4 4.93-6.44 6.23-12.3.1-.45-.35-.9-.9-.9zM8 16c.5-1.4 1.42-2.82 2.83-4.24C12.24 10.34 13.66 9.42 15.06 8.93" stroke="#7da37c" stroke-width="1.5" stroke-linecap="round" />
+      </svg>
+    </span>
+  </section>
+
+  <!-- Highlights -->
+  <section class="highlights container reveal">
+    <h2 align="center">Our Top Herbal Products</h2>
+    <p class="section-subtitle">Pure, simple, and thoughtfully made.</p>
+    <div class="highlight-grid">
+      <div class="highlight-item card">
+        <img src="images/seethodaka.jpeg" alt="Seethodaka" />
+        <h3>Seethodaka Oil</h3>
+        <p>For any joint pain with a calm relief</p>
+      </div>
+      <div class="highlight-item card">
+        <img src="images/amberalla.jpeg" alt="Wal amberalla" />
+        <h3>Wal Amberalla Paththuwa</h3>
+        <p>To clear calcium deposits and joint pains</p>
+      </div>
+      <div class="highlight-item card">
+        <img src="images/pasthel.jpeg" alt="Pas Thel" />
+        <h3>Pas Thel</h3>
+        <p>Nikan wedakata nethi thel ekak</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Divider -->
+  <section class="divider">
+    <span class="leaf">
+      <svg width="44" height="44" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+        <path d="M20.59 3.41c-5.86 1.3-9.9 3.83-12.3 6.23C5.89 12.03 4 15 4 18c0 1.5.5 3 2 3 3 0 5.97-1.89 8.36-4.29 2.4-2.4 4.93-6.44 6.23-12.3.1-.45-.35-.9-.9-.9zM8 16c.5-1.4 1.42-2.82 2.83-4.24C12.24 10.34 13.66 9.42 15.06 8.93" stroke="#7da37c" stroke-width="1.5" stroke-linecap="round" />
+      </svg>
+    </span>
+  </section>
+
+  <!-- Photo reel (10 images) -->
+  <section class="photo-carousel container reveal" id="gallery">
+    <h2>From our herbal world</h2>
+    <div class="carousel">
+      <img src="images/amberalla.jpeg" alt="Wal Amberalla Paththuwa" />
+      <img src="images/ashwaganda.jpeg" alt="Ashwagandha" />
+      <img src="images/kushmanda.jpeg" alt="kushmanda" />
+      <img src="images/neelyadi.jpeg" alt="neelyadi" />
+      <img src="images/pasthel.jpeg" alt="pasthel" />
+      <img src="images/ashwagandatriple.jpeg" alt="Ashwagandha" />
+      <img src="images/seethodaka.jpeg" alt="seethodaka" />
+      <img src="images/shoolahara.jpeg" alt="Shoolahara" />
+    </div>
+  </section>
+
+  <!-- Divider -->
+  <section class="divider">
+    <span class="leaf">
+      <svg width="44" height="44" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+        <path d="M20.59 3.41c-5.86 1.3-9.9 3.83-12.3 6.23C5.89 12.03 4 15 4 18c0 1.5.5 3 2 3 3 0 5.97-1.89 8.36-4.29 2.4-2.4 4.93-6.44 6.23-12.3.1-.45-.35-.9-.9-.9zM8 16c.5-1.4 1.42-2.82 2.83-4.24C12.24 10.34 13.66 9.42 15.06 8.93" stroke="#7da37c" stroke-width="1.5" stroke-linecap="round" />
+      </svg>
+    </span>
+  </section>
+
+  <!-- Contact info + form -->
+  <section class="contact container reveal" id="contact">
+    <div class="contact-grid">
+      <div class="contact-details card">
+        <h2>Contact us</h2>
+        <ul class="contact-list">
+          <li>
+            <span class="icon" aria-hidden="true">📧</span>
+            <a href="mailto:mansithaproducts@gmail.com">mansithaproducts@gmail.com</a>
+          </li>
+          <li>
+            <span class="icon" aria-hidden="true">📞</span>
+            <a href="tel:+94773758096">+94 77 375 8096</a>
+          </li>
+          <li>
+            <span class="icon" aria-hidden="true">📞</span>
+            <a href="tel:+94701233536">+94 70 123 3536</a>
+          </li>
+          <li>
+            <span class="icon" aria-hidden="true">💬</span>
+            <a href="https://wa.me/94773758096" target="_blank" rel="noopener">WhatsApp us</a>
+          </li>
+          <li>
+            <span class="icon" aria-hidden="true">⏰</span>
+            Mon–Fri: 8:00–18:00
+          </li>
+        </ul>
+      </div>
+
+      <div class="contact-form card">
+        <h2>Send us a message</h2>
+        <!-- Replace YOUR_FORM_ID with your Formspree form ID -->
+        <form id="contactForm" action="https://formspree.io/f/mvgqdkrr" method="POST">
+          <!-- Honeypot (spam trap) -->
+          <input type="text" name="_gotcha" style="display:none" tabindex="-1" autocomplete="off" />
+          <input type="hidden" name="_subject" value="New inquiry from Mansitha Herbal Website" />
+          <label>
+            <span>Name</span>
+            <input type="text" name="name" placeholder="Your name" required />
+          </label>
+          <label>
+            <span>Email</span>
+            <input type="email" name="email" placeholder="your@email.com" required />
+          </label>
+          <label>
+            <span>Message</span>
+            <textarea name="message" rows="4" placeholder="How can we help?" required></textarea>
+          </label>
+          <button type="submit" class="btn btn-primary">Send</button>
+          <p id="formStatus" class="form-status" role="status" aria-live="polite"></p>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Map -->
+  <section class="location container reveal" id="map">
+    <h2>Find us</h2>
+    <!-- Replace the src with your exact Google Maps Embed link -->
+    <div class="map-wrap card">
+      <iframe 
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3959.241224806453!2d80.0346222!3d7.0980153999999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae2fd003ee3af8d%3A0x58044eefdd9ed2c!2sMansitha%20Herbal%20Products%20(pvt)%20ltd!5e0!3m2!1sen!2slk!4v1754768147532!5m2!1sen!2slk" 
+      width="1055" 
+      height="600" 
+      style="border:0;" 
+      allowfullscreen="" 
+      loading="lazy" 
+      referrerpolicy="no-referrer-when-downgrade"></iframe>
+  </div>
+  </section>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; 2025 Mansitha Herbal Products (pvt)Ltd. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <!-- Scripts: reveal on scroll + AJAX form submit -->
+  <script>
+    // Reveal on scroll
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(e => {
+        if (e.isIntersecting) {
+          e.target.classList.add('visible');
+          observer.unobserve(e.target);
+        }
+      });
+    }, { threshold: 0.12 });
+
+    document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
+
+    // Form submit via fetch (Formspree)
+    const form = document.getElementById('contactForm');
+    const statusEl = document.getElementById('formStatus');
+
+    form.addEventListener('submit', async (e) => {
+      e.preventDefault();
+      statusEl.textContent = 'Sending...';
+      const data = new FormData(form);
+      try {
+        const resp = await fetch(form.action, {
+          method: 'POST',
+          body: data,
+          headers: { 'Accept': 'application/json' }
+        });
+        if (resp.ok) {
+          statusEl.textContent = 'Thanks! Your message has been sent.';
+          form.reset();
+        } else {
+          statusEl.textContent = 'Something went wrong. Please try again or email us directly.';
+        }
+      } catch (err) {
+        statusEl.textContent = 'Network error. Please try again in a moment.';
+      }
+    });
+    
+  </script>
+  <script>
+  // --- Auto-advance carousel ---
+  (function () {
+    const carousel = document.querySelector('.carousel');
+    if (!carousel) return;
+
+    const prefersReduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    if (prefersReduced) return; // respect user setting
+
+    let timer = null;
+
+    const getStep = () => {
+      const first = carousel.querySelector('img');
+      const gap = parseInt(getComputedStyle(carousel).gap || getComputedStyle(carousel).columnGap || 12, 10);
+      return first ? Math.round(first.getBoundingClientRect().width + gap) : 300;
+    };
+
+    const advance = () => {
+      const step = getStep();
+      const max = carousel.scrollWidth - carousel.clientWidth - 2;
+      const next = carousel.scrollLeft + step;
+
+      if (next >= max) {
+        // jump back to start without animation to avoid a long backward scroll
+        carousel.scrollTo({ left: 0, behavior: 'auto' });
+      } else {
+        carousel.scrollBy({ left: step, behavior: 'smooth' });
+      }
+    };
+
+    const start = () => { if (!timer) timer = setInterval(advance, 3500); };
+    const stop  = () => { if (timer) { clearInterval(timer); timer = null; } };
+
+    // Start autoplay
+    start();
+
+    // Pause on interaction; resume after
+    carousel.addEventListener('mouseenter', stop);
+    carousel.addEventListener('mouseleave', start);
+
+    let resumeTimeout;
+    const pauseTemporarily = () => {
+      stop();
+      clearTimeout(resumeTimeout);
+      resumeTimeout = setTimeout(start, 5000);
+    };
+    ['touchstart','pointerdown','wheel','keydown'].forEach(ev => {
+      carousel.addEventListener(ev, pauseTemporarily, { passive: true });
+    });
+
+    // Handle tab visibility + resize
+    document.addEventListener('visibilitychange', () => {
+      if (document.hidden) stop(); else start();
+    });
+    window.addEventListener('resize', pauseTemporarily);
+  })();
+</script>
+
 </body>
 </html>
